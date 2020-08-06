@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/local">
+        <file>assets/icons-menu.svg</file>
+        <file>assets/icons-pin.png</file>
+        <file>assets/icons-unpin.svg</file>
+        <file>assets/non-restoring-division.svg</file>
+        <file>assets/icons-move-forward.svg</file>
+        <file>assets/0-black.png</file>
+        <file>assets/0-grey.png</file>
+        <file>assets/1-black.png</file>
+        <file>assets/1-grey.png</file>
+        <file>assets/invert-bit-connectorpng.png</file>
+    </qresource>
+</RCC>

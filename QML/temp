@@ -1,0 +1,68 @@
+ListView{
+                    id: inputAList
+                    width: parent.width*0.25
+                    height: parent.height*0.75
+                    anchors.verticalCenter: parent.verticalCenter
+                    model: nonRestoringDivisionListViewDelegate.inputA
+                    orientation: ListView.Horizontal
+                    spacing: 5
+
+                    delegate: Rectangle{
+                        height: parent.height
+                        width: height*0.5
+                        Image {
+                            width: parent.width
+                            height: parent.height
+                            source: "/local/assets/" + modelData + "-black.png"
+                            sourceSize.height: height*0.75
+                            sourceSize.width: width*0.75
+                            anchors.centerIn: parent
+                        }
+                    }
+                }
+
+                ListView{
+                    id: inputBList
+                    width: parent.width*0.25
+                    height: parent.height*0.75
+                    anchors.verticalCenter: parent.verticalCenter
+                    model: nonRestoringDivisionListViewDelegate.inputB
+                    orientation: ListView.Horizontal
+                    spacing: 5
+
+                    delegate: Rectangle{
+                        height: parent.height
+                        width: height*0.5
+                        Image {
+                            width: parent.width
+                            height: parent.height
+                            source: "/local/assets/" + modelData + "-black.png"
+                            sourceSize.height: height*0.75
+                            sourceSize.width: width*0.75
+                            anchors.centerIn: parent
+                        }
+                    }
+                }
+
+                ListView{
+                    id: outputCList
+                    width: parent.width*0.25
+                    height: parent.height*0.75
+                    anchors.verticalCenter: parent.verticalCenter
+                    model: nonRestoringDivisionListViewDelegate.outputC
+                    orientation: ListView.Horizontal
+                    spacing: 5
+
+                    delegate: Rectangle{
+                        height: parent.height
+                        width: height*0.5
+                        Image {
+                            width: parent.width
+                            height: parent.height
+                            source: "/local/assets/" + modelData + "-black.png"
+                            sourceSize.height: height*0.75
+                            sourceSize.width: width*0.75
+                            anchors.centerIn: parent
+                        }
+                    }
+                } 

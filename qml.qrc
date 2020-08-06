@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QML/main.qml</file>
+        <file>QML/SidePanel.qml</file>
+        <file>QML/CustomComponents/RImageExpandingButton.qml</file>
+        <file>QML/CustomComponents/RImageButton.qml</file>
+        <file>QML/CustomComponents/RTextButton.qml</file>
+        <file>QML/InputBar.qml</file>
+        <file>QML/NonRestoringDivision.qml</file>
+        <file>QML/CustomComponents/RComboBox.qml</file>
+        <file>QML/LeftShiftAnimation.qml</file>
+        <file>QML/AnimationBar.qml</file>
+    </qresource>
+</RCC>
